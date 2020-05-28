@@ -15,8 +15,15 @@ set incsearch
 set hlsearch
 set expandtab
 set shiftwidth=2
-set textwidth=79
+set textwidth=89
 set softtabstop=2
+set wrap
+
+" Easy shortcut list:
+" <C-n> nerdtree
+" <,cc> quick-comment
+" <,cu> quick-uncomment
+" <F3> timestamp
 
 " Leader default is \ but , is easier to reach
 let mapleader = ","
@@ -27,10 +34,9 @@ map <C-n> :NERDTreeToggle<CR>
 " Reformat code with F7 
 map <F7> gg=G<C-o><C-o>
 
-" Autoclose parens and brackets, ctrl j to skip out
-":inoremap { {}<Esc>i
-":inoremap {<CR> {<CR>  <CR>}<Esc>k i
-:inoremap <C-j> <Esc>/[)}"'\]>]<CR>:nohl<CR>a
+" Timestamp insert from C
+nmap <F3> i<C-R>=strftime("<%Y-%m-%d %a>")<CR><Esc>
+imap <F3> <C-R>=strftime("<%Y-%m-%d %a>")<CR>
 
 " Close VIM if only window left open is nerdtree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif

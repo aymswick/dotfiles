@@ -21,6 +21,7 @@ alias du="dust"
 # Exa is slightly better ls
 alias ls="exa"
 alias ll="exa -la"
+alias tree="exa --tree"
 
 # check which app using a port
 alias ports="netstat -tulpn | grep "
