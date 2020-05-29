@@ -1,7 +1,7 @@
 filetype indent plugin on
 syntax on
 set background=dark
-colorscheme gotham
+colorscheme jellybeans
 
 set wildmenu
 set autoindent

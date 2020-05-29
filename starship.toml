@@ -1,5 +1,5 @@
 [character]
-symbol = "➜"
+symbol = ">"
 
 [username]
 disabled = false
@@ -7,6 +7,7 @@ show_always = true
 
 [directory]
 prefix = ""
+truncation_length = 9
 
 [line_break]
 disabled = true
