@@ -36,12 +36,7 @@ alias open="xdg-open"
 
 eval "$(starship init zsh)"
 
-# motd style message on startup
-echo -e "\033[36m\e[1m"
-figlet "welcome to hell" -f slant
-echo -e "\n"
-
-echo -e "\033[36m\e[1mRunning Terminals:\e[2m"
+echo -e "\nRunning Terminals:"
 tmux ls
 
 export NVM_DIR="$HOME/.nvm"
