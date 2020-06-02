@@ -1,5 +1,6 @@
 [character]
-symbol = ">"
+symbol = "➜"
+use_symbol_for_status = true
 
 [username]
 disabled = false
