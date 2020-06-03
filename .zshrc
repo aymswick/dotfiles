@@ -53,5 +53,10 @@ source /home/aymswick/.config/broot/launcher/bash/br
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /home/linuxbrew/.linuxbrew/Cellar/terraform/0.12.24/bin/terraform terraform
 
+# pmbootstrap tab completion
+autoload bashcompinit
+bashcompinit
+eval "$(register-python-argcomplete pmbootstrap)"
+
 # added by pipx (https://github.com/pipxproject/pipx)
 export PATH="/home/aymswick/.local/bin:$PATH"
