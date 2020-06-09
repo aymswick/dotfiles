@@ -40,10 +40,6 @@ nnoremap <C-k> <C-w><C-k>
 nnoremap <C-l> <C-w><C-l>
 nnoremap <C-h> <C-w><C-h>
 
-" markdown italics
-nmap <C-i> i**<Esc>i
-imap <C-i> **<Esc>i
-
 " NerdTree shortcut to ctrl+n
 map <C-n> :NERDTreeToggle<CR>
 
