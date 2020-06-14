@@ -59,4 +59,4 @@ bashcompinit
 eval "$(register-python-argcomplete pmbootstrap)"
 
 # added by pipx (https://github.com/pipxproject/pipx)
-export PATH="/home/aymswick/.local/bin:$PATH"
+export PATH="/home/aymswick/.local/bin:/usr/local/go/bin:$PATH"
