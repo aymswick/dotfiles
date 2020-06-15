@@ -29,6 +29,8 @@ alias ports="netstat -tulpn | grep "
 # cat the todo list
 alias todo="batcat -n --color auto --style full ~/notes/todo.org"
 
+# blog dir quick access
+alias blog="cd ~/code/blog"
 # batcat is prettier cat
 alias cat="batcat -n --color auto --style full"
 
