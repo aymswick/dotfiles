@@ -82,4 +82,5 @@ Plug 'jelera/vim-javascript-syntax'
 Plug 'jceb/vim-orgmode' " super nice for notetaking
 Plug 'vim-scripts/utl.vim'
 Plug 'tpope/vim-speeddating'
+Plug 'gko/vim-coloresque'
 call plug#end()
