@@ -15,6 +15,9 @@ ZSH_THEME="awesomepanda"
 # use 256bit color
 export TERM=xterm-256color
 
+# Login to laptop
+alias eco="ssh asymkowick@10.0.0.127"
+
 # Dust is a rust-based, visual du
 alias du="dust"
 
